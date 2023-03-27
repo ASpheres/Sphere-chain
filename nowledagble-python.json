@@ -1,0 +1,812 @@
+{
+    "arbre1": {
+        "nom": "Python",
+        "node0": {
+            "id": 0,
+            "nom": "main python",
+            "lien":"",
+            "previousNode":[]
+
+        },
+        "node1": {
+            "id": 1,
+            "nom": "variables",
+            "lien":"",
+            "previousNode":[0]
+
+        },
+        "node2": {
+            "id": 2,
+            "nom": "data types",
+            "lien":"",
+            "previousNode":[0]
+
+        },
+        "node3": {
+            "id": 3,
+            "nom": "functions",
+            "lien":"",
+            "previousNode":[0]
+
+        },
+        "node4": {
+            "id": 4,
+            "nom": "identifiers",
+            "lien":"",
+            "previousNode":[1,3]
+
+        },
+        "node5": {
+            "id": 5,
+            "nom": "variable assignment",
+            "lien":"",
+            "previousNode":[2,3]
+
+        },
+        "node6": {
+            "id": 6,
+            "nom": "loops",
+            "lien":"",
+            "previousNode":[1,3,4]
+
+        },
+        "node7": {
+            "id": 7,
+            "nom": "conditional statements",
+            "lien":"",
+            "previousNode":[1,2,3]
+
+        },
+        "node8": {
+            "id": 8,
+            "nom": "operations",
+            "lien":"",
+            "previousNode":[1,2,3,4,7]
+
+        },
+        "node9": {
+            "id": 9,
+            "nom": "Lists",
+            "lien":"",
+            "previousNode":[0,6, 5]
+
+
+        },
+        "node10": {
+            "id": 10,
+            "nom": "indexing lists",
+            "lien":"",
+            "previousNode":[0,9]
+
+        },
+        "node11": {
+            "id": 11,
+            "nom": "list operations",
+            "lien":"",
+            "previousNode":[8,9,10]
+
+        },
+        "node12": {
+            "id": 12,
+            "nom": "python dictionries",
+            "lien":"",
+            "previousNode":[1,2,8,9,10,11]
+
+        },
+        "node13": {
+            "id": 13,
+            "nom": "python flow control",
+            "lien":"",
+            "previousNode":[1,2,3,6,7,8]
+
+        },
+        "node14": {
+            "id": 14,
+            "nom": "python array",
+            "lien":"",
+            "previousNode":[0,1,2,3,4]
+
+        },
+        "node15": {
+            "id": 15,
+            "nom": "python numpy",
+            "lien":"",
+            "previousNode":[0,1,2,3,4,5,6,7,8,14]
+
+        },
+        "node16": {
+            "id": 16,
+            "nom": "python transose function",
+            "lien":"",
+            "previousNode":[0,14,15]
+
+        },
+        "node17": {
+            "id": 17,
+            "nom": "python JSON file handling",
+            "lien":"",
+            "previousNode":[0,1,2,3,4,13]
+
+        },
+        "node18": {
+            "id": 18,
+            "nom": "python Yaml file handling",
+            "lien":"",
+            "previousNode":[0,1,2,3,4,13]
+
+        },
+        "node19": {
+            "id": 19,
+            "nom": "python XML file handling",
+            "lien":"",
+            "previousNode":[0,1,2,3,4,13]
+
+        },
+        "node20": {
+            "id": 20,
+            "nom": "python numpy mathematical function",
+            "lien":"",
+            "previousNode":[0,1,2,3,4,5,15]
+
+        },
+        "node21": {
+            "id": 21,
+            "nom": "python numpy mask function",
+            "lien":"",
+            "previousNode":[0,1,2,3,4,5,15]
+
+
+        },
+        "node22": {
+            "id": 22,
+            "nom": "python pandas",
+            "lien":"",
+            "previousNode":[0,1,2,3,4,5,6]
+
+        },
+        "node23": {
+            "id": 23,
+            "nom": "pandas data summarization",
+            "lien":"",
+            "previousNode":[0,1,2,3,22]
+
+        },
+        "node24": {
+            "id": 24,
+            "nom": "python pandas dataframe",
+            "lien":"",
+            "previousNode":[0,22]
+
+        },
+        "node25": {
+            "id": 25,
+            "nom": "python pandas data frame subset",
+            "lien":"",
+            "previousNode":[0,10,22]
+
+        },
+        "node26": {
+            "id": 26,
+            "nom": "python pandas numpy masking",
+            "lien":"",
+            "previousNode":[0,10,15,21,22]
+
+        },
+        "node27": {
+            "id": 27,
+            "nom": "python pandas data grouping",
+            "lien":"",
+            "previousNode":[0,10,22]
+
+        },
+        "node28": {
+            "id": 28,
+            "nom": "python data visualization with matplotlib",
+            "lien":"",
+            "previousNode":[0,15,22]
+
+        },
+        "node29": {
+            "id": 29,
+            "nom": "python matplotlib line plot",
+            "lien":"",
+            "previousNode":[0,22,28]
+
+        },
+        "node30": {
+            "id": 30,
+            "nom": "python matplotlib scatter plot",
+            "lien":"",
+            "previousNode":[0,15,22,28]
+
+        },
+        "node31": {
+            "id": 31,
+            "nom": "python matplotlib",
+            "lien":"",
+            "previousNode":[0,15,28,29]
+
+        },
+        "node32": {
+            "id": 32,
+            "nom": "python matplotlib advanced",
+            "lien":"",
+            "previousNode":[0,15,22,28]
+
+        },
+        "node33": {
+            "id": 33,
+            "nom": "python matplotlib advanced barplot",
+            "lien":"",
+            "previousNode":[0,15,22,28,32]
+
+        },
+        "node34": {
+            "id": 34,
+            "nom": "python matplotlib advanced scatter plot styling",
+            "lien":"",
+            "previousNode":[0,15,22,28,30,32]
+
+        },
+        "node35": {
+            "id": 35,
+            "nom": "Feature engineering",
+            "lien":"",
+            "previousNode":[0,3,5,6,22,23,24]
+
+        },
+        "node36": {
+            "id": 36,
+            "nom": "Feature engineering transpose function",
+            "lien":"",
+            "previousNode":[0,3,5,6,18,22,23,24,28,32]
+
+        },
+        "node37": {
+            "id": 37,
+            "nom": "Feature engineering transforming funtion",
+            "lien":"",
+            "previousNode":[0,3,5,6,15,16,28]
+
+        },
+        "node38": {
+            "id": 38,
+            "nom": "Matrix numpy",
+            "lien":"",
+            "previousNode":[0,10,14,15]
+
+        },
+        "node39": {
+            "id": 39,
+            "nom": "Matrix numpy masking",
+            "lien":"",
+            "previousNode":[0,10,14,15,16]
+
+        },
+        "node40": {
+            "id": 40,
+            "nom": "python recursion",
+            "lien":"",
+            "previousNode":[0,1,2,3,4,5,6,7,8]
+
+        },
+        "node41": {
+            "id": 41,
+            "nom": "python recursion mathematical operations",
+            "lien":"",
+            "previousNode":[0,1,2,3,4,5,6,7,8,9,20]
+
+        },
+        "node42": {
+            "id": 42,
+            "nom": "python ML",
+            "lien":"",
+            "previousNode":[0,15,22]
+
+        },
+        "node43": {
+            "id": 43,
+            "nom": "python ML scikit learn",
+            "lien":"",
+            "previousNode":[0,1,2,3,4,15,22,41]
+
+        },
+        "node44": {
+            "id": 44,
+            "nom": "python ML label encoding",
+            "lien":"",
+            "previousNode":[0,15,22,42,43]
+
+        },
+        "node45": {
+            "id": 45,
+            "nom": "python ML one hot encoding",
+            "lien":"",
+            "previousNode":[0,15,22,42,43,44]
+
+        },
+        "node46": {
+            "id": 46,
+            "nom": "python ML scikit learn",
+            "lien":"",
+            "previousNode":[0,15,22,42]
+
+        },
+        "node47": {
+            "id": 47,
+            "nom": "python ML model training",
+            "lien":"",
+            "previousNode":[0,15,22,42,43,45,46]
+
+        },
+        "node48": {
+            "id": 48,
+            "nom": "python ML classification",
+            "lien":"",
+            "previousNode":[0,15,22,40,46,47]
+
+        },
+        "node49": {
+            "id": 49,
+            "nom": "python ML linear regression",
+            "lien":"",
+            "previousNode":[0,15,22,40,46]
+
+        },
+        "node50": {
+            "id": 50,
+            "nom": "python ML Prediction",
+            "lien":"",
+            "previousNode":[0,15,22,40]
+
+        },
+        "node51": {
+            "id": 51,
+            "nom": "python ML MSE",
+            "lien":"",
+            "previousNode":[0,15,22,40,48,49,50]
+
+        },
+        "node52": {
+            "id": 52,
+            "nom": "python ML R2 score",
+            "lien":"",
+            "previousNode":[0,15,22,40,48,49,50]
+
+        },
+        "node53": {
+            "id": 53,
+            "nom": "ML : régression logistique pour la classification de tumeur avec scikit learn",
+            "lien":"",
+            "previousNode":[0,15,22,40,47,50,51,52]
+
+        },
+        "node54": {
+            "id": 54,
+            "nom": "ML : régression logistique pour la classification de tumeur avec scikit learn logestic regression",
+            "lien":"",
+            "previousNode":[0,15,22,40,47,50,51,52,53]
+
+        },
+        "node55": {
+            "id": 55,
+            "nom": "ML : régression logistique pour la classification de tumeur avec scikit learn Decision Tree",
+            "lien":"",
+            "previousNode":[0,15,22,40,47,50,51,52,53]
+
+        },
+        "node56": {
+            "id": 56,
+            "nom": "ML : régression logistique pour la classification de tumeur avec scikit learn Decision Tree classifier confusion matrix",
+            "lien":"",
+            "previousNode":[0,15,22,40,47,50,51,52,53]
+
+        },
+        "node57": {
+            "id": 57,
+            "nom": "ML : régression logistique pour la classification de tumeur avec scikit learn sigmoid and probability check",
+            "lien":"",
+            "previousNode":[0,3,15,22,40,47,50,51,52,53]
+
+        },
+        "node58": {
+            "id": 58,
+            "nom": "Deep learning avec Keras I : réseaux fully connected régression et classification neural network",
+            "lien":"",
+            "previousNode":[0,15,22,40,47]
+
+        },
+        "node59": {
+            "id": 59,
+            "nom": "Deep learning avec Keras I : réseaux fully connected régression et classification tenserflow",
+            "lien":"",
+            "previousNode":[0,15,22,40,47,58]
+
+        },
+        "node60": {
+            "id": 60,
+            "nom": "Deep learning avec Keras I : réseaux fully connected régression et classification keras",
+            "lien":"",
+            "previousNode":[0,15,22,40,47,58,59]
+
+        },
+        "node61": {
+            "id": 61,
+            "nom": "Deep learning avec Keras I : réseaux fully connected régression et classification dense layer",
+            "lien":"",
+            "previousNode":[0,15,22,40,47,58,59,60]
+
+        },
+        "node62": {
+            "id": 62,
+            "nom": "Deep learning avec Keras I : réseaux fully connected régression et classification neurons",
+            "lien":"",
+            "previousNode":[0,15,22,40,47,58,59,60,61]
+
+        },
+        "node63": {
+            "id": 63,
+            "nom": "Deep learning avec Keras I : réseaux fully connected régression et classification activation functions",
+            "lien":"",
+            "previousNode":[0,15,22,40,47,58,59,60,61,62]
+
+        },
+        "node64": {
+            "id": 64,
+            "nom": "Deep learning avec Keras I : réseaux fully connected régression et classification API creation of neural network",
+            "lien":"",
+            "previousNode":[0,15,22,40,47,58,59,60]
+
+        },
+        "node65": {
+            "id": 65,
+            "nom": "Deep learning avec Keras I : réseaux fully connected régression et classification optmizers",
+            "lien":"",
+            "previousNode":[0,15,22,40,47,58,59,60,61,62]
+
+        },
+        "node66": {
+            "id": 66,
+            "nom": "Deep learning avec Keras I : réseaux fully connected régression et classification cost functions",
+            "lien":"",
+            "previousNode":[0,15,22,40,47,58,59,60,61,62,65]
+
+        },
+        "node67": {
+            "id": 67,
+            "nom": "Deep learning avec Keras I : réseaux fully connected régression et classification epoches",
+            "lien":"",
+            "previousNode":[0,15,22,40,47,58,59,60,61,62,65,66]
+
+        },
+        "node68": {
+            "id": 68,
+            "nom": "Deep learning avec Keras I : réseaux fully connected régression et classification batches",
+            "lien":"",
+            "previousNode":[0,15,22,40,47,58,59,60,61,62,65]
+
+        },
+        "node69": {
+            "id": 69,
+            "nom": "Deep learning avec Keras I : réseaux fully connected régression et classification stochastic gradient decent, Adagrad, RMSprop",
+            "lien":"",
+            "previousNode":[0,15,22,40,47,58,59,60,61,62,65,66]
+
+        },
+        "node70": {
+            "id": 70,
+            "nom": "Deep learning avec Pytorch",
+            "lien":"https://www.sznajdman.com/wp-content/uploads/2018/02/pytorch-cheat.jpg",
+            "previousNode":[0]
+
+        },
+        "node71": {
+            "id": 71,
+            "nom": "Deep learning avec Pytorch torch.functions",
+            "lien":"https://www.sznajdman.com/wp-content/uploads/2018/02/pytorch-cheat.jpg",
+            "previousNode":[0,71]
+
+        },
+        "node72": {
+            "id": 72,
+            "nom": "Deep learning avec Pytorch tensor",
+            "lien":"https://www.sznajdman.com/wp-content/uploads/2018/02/pytorch-cheat.jpg",
+            "previousNode":[0,71]
+
+        },
+        "node73": {
+            "id": 73,
+            "nom": "Deep learning avec Pytorch gradient decent",
+            "lien":"https://www.sznajdman.com/wp-content/uploads/2018/02/pytorch-cheat.jpg",
+            "previousNode":[0,71]
+
+        },
+        "node74": {
+            "id": 74,
+            "nom": "Deep learning avec Pytorch mathematical operations",
+            "lien":"https://www.sznajdman.com/wp-content/uploads/2018/02/pytorch-cheat.jpg",
+            "previousNode":[0,71]
+
+        },
+        "node75": {
+            "id": 75,
+            "nom": "Deep learning avec Pytorch backward propogation",
+            "lien":"https://www.sznajdman.com/wp-content/uploads/2018/02/pytorch-cheat.jpg",
+            "previousNode":[0,58,71]
+
+        },
+        "node76": {
+            "id": 76,
+            "nom": "Deep learning avec Pytorch arthematics operations",
+            "lien":"https://www.sznajdman.com/wp-content/uploads/2018/02/pytorch-cheat.jpg",
+            "previousNode":[0,71]
+
+        },
+        "node77": {
+            "id": 77,
+            "nom": "Deep learning avec Pytorch activation functions",
+            "lien":"https://www.sznajdman.com/wp-content/uploads/2018/02/pytorch-cheat.jpg",
+            "previousNode":[0,58,71]
+
+        },
+        "node78": {
+            "id": 78,
+            "nom": "Deep learning avec Pytorch forward propogation",
+            "lien":"https://www.sznajdman.com/wp-content/uploads/2018/02/pytorch-cheat.jpg",
+            "previousNode":[0,58,71]
+
+        },
+        "node79": {
+            "id": 79,
+            "nom": "Deep learning avec Pytorch logestic regression",
+            "lien":"https://www.sznajdman.com/wp-content/uploads/2018/02/pytorch-cheat.jpg",
+            "previousNode":[0,71]
+
+        },
+        "node80": {
+            "id": 80,
+            "nom": "Deep learning avec Pytorch torch.utils",
+            "lien":"https://www.sznajdman.com/wp-content/uploads/2018/02/pytorch-cheat.jpg",
+            "previousNode":[0,71]
+
+        },
+        "node81": {
+            "id": 81,
+            "nom": "Deep learning avec Pytorch data manipulation",
+            "lien":"https://www.sznajdman.com/wp-content/uploads/2018/02/pytorch-cheat.jpg",
+            "previousNode":[0,71]
+
+        },
+        "node82": {
+            "id": 82,
+            "nom": "Deep learning avec Pytorch data frame",
+            "lien":"https://www.sznajdman.com/wp-content/uploads/2018/02/pytorch-cheat.jpg",
+            "previousNode":[0,71]
+
+        },
+        "node83": {
+            "id": 83,
+            "nom": "Deep learning avec Pytorch deep learning",
+            "lien":"https://www.sznajdman.com/wp-content/uploads/2018/02/pytorch-cheat.jpg",
+            "previousNode":[0,58,71]
+
+        },
+        "node84": {
+            "id": 84,
+            "nom": "Deep learning avec Pytorch CNN",
+            "lien":"https://www.sznajdman.com/wp-content/uploads/2018/02/pytorch-cheat.jpg",
+            "previousNode":[0,58,71,75,78]
+
+        },
+        "node85": {
+            "id": 85,
+            "nom": "Deep learning avec Pytorch encoding",
+            "lien":"https://www.sznajdman.com/wp-content/uploads/2018/02/pytorch-cheat.jpg",
+            "previousNode":[0,58,71,75,78]
+
+        },
+        "node86": {
+            "id": 86,
+            "nom": "Deep learning avec Pytorch metrics",
+            "lien":"https://www.sznajdman.com/wp-content/uploads/2018/02/pytorch-cheat.jpg",
+            "previousNode":[0,58,71]
+
+        },
+        "node87": {
+            "id": 87,
+            "nom": "Deep learning avec Pytorch GAN",
+            "lien":"https://www.sznajdman.com/wp-content/uploads/2018/02/pytorch-cheat.jpg",
+            "previousNode":[0,58,71,75,78]
+
+        },
+        "node88": {
+            "id": 88,
+            "nom": "Deep learning avec Pytorch open neural network exchange environment (ONNX)",
+            "lien":"https://www.sznajdman.com/wp-content/uploads/2018/02/pytorch-cheat.jpg",
+            "previousNode":[0,58,71,75,78,87]
+
+        },
+        "node89": {
+            "id": 89,
+            "nom": "Deep learning avec Pytorch ONNX nn.pytorch module",
+            "lien":"https://www.sznajdman.com/wp-content/uploads/2018/02/pytorch-cheat.jpg",
+            "previousNode":[0,57,71,75,78,87]
+
+        },
+        "node90": {
+            "id": 90,
+            "nom": "ML ensemble learning regresssion",
+            "lien":"",
+            "previousNode":[0,49,54,57,58]
+
+        },
+        "node91": {
+            "id": 91,
+            "nom": "ML ensemble learning regresssion supervised learning and cost function",
+            "lien":"",
+            "previousNode":[0,66]
+
+        },
+        "node92": {
+            "id": 92,
+            "nom": "ML ensemble learning ensembling methods",
+            "lien":"",
+            "previousNode":[0,66,91]
+
+        },
+        "node93": {
+            "id": 93,
+            "nom": "ML ensemble learning conda environment and gradient descent",
+            "lien":"",
+            "previousNode":[0,66]
+
+        },
+        "node94": {
+            "id": 94,
+            "nom": "ML ensemble learning supervised learning image processing",
+            "lien":"",
+            "previousNode":[0,84,91]
+
+        },
+        "node95": {
+            "id": 95,
+            "nom": "Introduction à streamlit",
+            "lien":"",
+            "previousNode":[0]
+
+        },
+        "node96": {
+            "id": 96,
+            "nom": "streamlit installation with pip",
+            "lien":"",
+            "previousNode":[95]
+
+        },
+        "node97": {
+            "id": 97,
+            "nom": "streamlit execution",
+            "lien":"",
+            "previousNode":[95]
+
+        },
+        "node98": {
+            "id": 98,
+            "nom": "streamlit interactions",
+            "lien":"",
+            "previousNode":[95]
+
+        },
+        "node99": {
+            "id": 99,
+            "nom": "streamlit functions and variables",
+            "lien":"",
+            "previousNode":[95,98]
+
+        },
+        "node100": {
+            "id": 100,
+            "nom": "streamlit pandas",
+            "lien":"",
+            "previousNode":[0,15,98]
+
+        },
+        "node101": {
+            "id": 101,
+            "nom": "streamlit time.sleep",
+            "lien":"",
+            "previousNode":[95,98]
+
+        },
+        "node102": {
+            "id": 102,
+            "nom": "streamlit cache",
+            "lien":"",
+            "previousNode":[95,98]
+
+        },
+        "node103": {
+            "id": 103,
+            "nom": "streamlit buttons",
+            "lien":"",
+            "previousNode":[98]
+
+        },
+        "node104": {
+            "id": 104,
+            "nom": "streamlit conditional statements",
+            "lien":"",
+            "previousNode":[95,98]
+
+        },
+        "node105": {
+            "id": 105,
+            "nom": "Introduction natural language processing (NLP)",
+            "lien":"",
+            "previousNode":[0,1,2,3,4,5]
+
+        },
+        "node106": {
+            "id": 106,
+            "nom": "NLP spacy",
+            "lien":"",
+            "previousNode":[0,1,2,3,5,105]
+
+        },
+        "node107": {
+            "id": 107,
+            "nom": "NLP spacy stop words",
+            "lien":"",
+            "previousNode":[0,105]
+
+        },
+        "node108": {
+            "id": 108,
+            "nom": "NLP spacy touple",
+            "lien":"",
+            "previousNode":[0,105,107]
+
+        },
+        "node109": {
+            "id": 109,
+            "nom": "NLP spacy dependancy parsing",
+            "lien":"",
+            "previousNode":[0,105,107,108]
+
+        },
+        "node110": {
+            "id": 110,
+            "nom": "NLP spacy cleaning",
+            "lien":"",
+            "previousNode":[0,105,107,108]
+
+        },
+        "node111": {
+            "id": 111,
+            "nom": "NLP spacy normalization",
+            "lien":"",
+            "previousNode":[0,105,106,107,109,110]
+
+        },
+        "node112": {
+            "id": 112,
+            "nom": "NLP Tf-IDF",
+            "lien":"",
+            "previousNode":[0,105]
+
+        },
+        "node113": {
+            "id": 113,
+            "nom": "NLP Tf-IDF vectorizer",
+            "lien":"",
+            "previousNode":[0,105,112]
+
+        },
+        "node114": {
+            "id": 114,
+            "nom": "NLP spacy sentiment analysis",
+            "lien":"",
+            "previousNode":[0,105,106,112]
+
+        }
+    }
+}
